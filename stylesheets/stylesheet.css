@@ -502,14 +502,15 @@ aside#sidebar {
   width: 200px;
   min-height: 504px;
   padding-left: 20px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.3;
-  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
 }
 
 aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
   font-weight: bold;
+  font-size: 22px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
 #downloads {
@@ -517,12 +518,12 @@ aside#sidebar p.repo-owner a {
 }
 
 a.button {
-  width: 134px;
+  width: 234px;
   height: 58px;
-  padding-top: 22px;
+  padding-top: 35px;
   padding-left: 68px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 23px;
+  font-size: 22px;
   line-height: 1.2;
   color: #fff;
 }
@@ -534,7 +535,6 @@ header a.button {
   position: absolute;
   top: 0;
   right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 aside a.button {
   display: block;
@@ -542,7 +542,6 @@ aside a.button {
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
 }
 
 code, pre {
@@ -647,17 +646,20 @@ form {
 #main-content h3 {
   margin-top: 24px;
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: '宋体','Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-style:italic;
+  font-weight:bold;
   font-size: 18px;
   font-weight: bold;
-  color: #474747;
+  color: #000099;
   text-indent: 3px;
 }
 
 #main-content h3:before {
   padding-right: 0.3em;
   margin-left: -2em;
-  content: "///";
+  font-style:normal;
+  content: "//";
   color: #9ddcff;
 }
 

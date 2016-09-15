@@ -646,7 +646,7 @@ form {
 #main-content h3 {
   margin-top: 24px;
   margin-bottom: 8px;
-  font-family: '宋体','Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Architects Daughter', '宋体', 'Helvetica Neue', Helvetica, Arial, serif;
   font-style:italic;
   font-weight:bold;
   font-size: 18px;
@@ -675,7 +675,7 @@ form {
 h4:before {
   padding-right: 0.3em;
   margin-left: -2.8em;
-  content: "////";
+  content: "//";
   color: #9ddcff;
 }
 
